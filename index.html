@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>동영상 사용해보긩ㅎㅎ</title>
+    <script
+      src="https://kit.fontawesome.com/d905bc4a07.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./main.js"></script>
+    <!-- css js html 각각 다 폴더 따로 만들어서 완성하는게 좋다! -->
+  </head>
+  <body>
+    <header>
+      <h1><a href="./index.html"></a>flower</h1>
+      <ul id="menu">
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="#" onclick="hi()">NEWS</a></li>
+        <li><a href="#">COMMUNITY</a></li>
+      </ul>
+      <!--  ul.sns>li*3>a -->
+      <ul class="sns">
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-cloud"></i></a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <video src="./flower.mp4" autoplay loop muted></video>
+      <!-- 소리잇는거면 muted 근데 걍 다 넣는게 쭈음요 ㅋㅋ -->
+      <article>
+        <p>
+          every flower blooms <br />
+          in its own time.
+        </p>
+      </article>
+    </main>
+    <footer>footer</footer>
+  </body>
+</html>
