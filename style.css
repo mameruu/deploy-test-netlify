@@ -63,6 +63,9 @@ header .sns li a {
 header .sns li a i {
 }
 
+header #small-menu {
+  display: none;
+}
 /* main */
 
 main {
@@ -98,4 +101,27 @@ footer {
   /* background-color: yellowgreen; */
   text-align: center;
   color: white;
+}
+
+/* 핸드폰용 */
+@media screen and (max-width: 400px) {
+  header #menu {
+    display: none;
+  }
+
+  header #small-menu {
+    display: block;
+  }
+  header #small-menu li {
+    text-align: center;
+  }
+  header #small-menu li a {
+    color: black;
+  }
+
+  main p {
+    color: black;
+    text-shadow: -1px -1px 0 yellowgreen, 1px -1px 0 yellowgreen,
+      -1px 1px 0 yellowgreen, 1px 1px 0 yellowgreen;
+  }
 }
